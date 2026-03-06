@@ -13,8 +13,8 @@ login_url = "http://172.16.0.200:2280/submit/user_login.php"
 # -------------------------------
 # Your credentials
 # -------------------------------
-username = "rithikraghavb.ei25@bitsathy.ac.in"
-password = "230308"
+username = "usrnm"
+password = "pswd"
 
 # Step 1 – Delete old session
 def delete_old_session():
@@ -76,4 +76,5 @@ def main():
         print(" Skipping login because old session could not be deleted.")
 
 if __name__ == "__main__":
+
     main()
